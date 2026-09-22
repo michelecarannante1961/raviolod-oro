@@ -54,6 +54,7 @@
       story_feat3_desc: "Sale storiche accoglienti e suggestivo dehors illuminato.",
       story_feat4_title: "Accoglienza Capitolina",
       story_feat4_desc: "Staff caloroso e attento, per sentirsi sempre a casa.",
+      story_quote_author: "Mastri Pastai — Raviolo d'Oro",
       story_quote: "«Il raviolo perfetto è un piccolo scrigno dorato che racchiude tutta la generosità di Roma.»",
 
       // Specialties
@@ -156,6 +157,57 @@
       footer_rights: "© 2026 Raviolo d'Oro. Tutti i diritti riservati.",
       footer_legal: "lemm srl Roma – Via della Guglia 62-66, 00186 Roma (RM) – REA 1549837 | P.IVA 14841901003",
       footer_credit: "Progettato con standard web moderni per alte prestazioni e conversioni.",
+            // Specialty Tag Pills
+      pill_fresh_pasta: "Pasta Fresca Espresso",
+      pill_pecorino: "Pecorino DOP",
+      pill_vegetarian: "Vegetariano",
+      pill_guanciale: "Guanciale Croccante",
+      pill_yolks: "Tuorli Freschi",
+      pill_traditional_recipe: "Ricetta Tradizionale",
+      pill_artichoke: "Carciofo Romanesco",
+      pill_golden_fried: "Frittura Dorata",
+      pill_gluten_free: "Senza Glutine",
+
+      // Menu Item Labels
+      lbl_chef_rec: "★ Piatto Consigliato",
+      lbl_handmade_pasta: "Pasta Fatta in Casa",
+      lbl_chef_specialty: "Specialità dello Chef",
+      lbl_fresh_catch: "Pescato Fresco",
+      lbl_most_popular: "Il Più Richiesto",
+      lbl_roman_classic: "Classico Capitolino",
+      lbl_100_gf: "100% Senza Glutine",
+      lbl_warm_starter: "Antipasto Caldo",
+      lbl_trad_main: "Secondo Tradizionale",
+      lbl_homemade: "Fatto in Casa",
+      lbl_wine_labels: "Oltre 60 Etichette",
+      lbl_wine_price_from: "da € 22,00",
+
+      // Booking Form specifics
+      lbl_guests_suffix: "ospiti al tavolo",
+      err_name: "Inserisci il nome dell'ospite (almeno 3 caratteri).",
+      err_phone: "Inserisci un numero di telefono valido per la conferma.",
+      err_email: "Inserisci un indirizzo email valido.",
+      lbl_no_card: "Nessuna carta richiesta • Cancellazione gratuita in qualsiasi momento",
+
+      // Reviews Badges & Meta
+      badge_cert_excellence: "Certificato di Eccellenza",
+      badge_verified_review: "Recensione Verificata",
+      badge_recent_visit: "Visita recente",
+      badge_dinner_friends: "Cena con amici",
+      badge_couple_tourist: "Turista in coppia",
+      city_istanbul: "Istanbul, Turchia",
+      city_warsaw: "Varsavia, Polonia",
+      city_madrid: "Madrid, Spagna",
+
+      // Footer Kitchen days
+      day_mon: "Lunedì: 11:30 – 23:30",
+      day_tue: "Martedì: 11:30 – 23:30",
+      day_wed: "Mercoledì: 11:30 – 23:30",
+      day_thu: "Giovedì: 11:30 – 23:30",
+      day_fri: "Venerdì: 11:30 – 23:30",
+      day_sat: "Sabato: 11:30 – 23:30",
+      day_sun: "Domenica: 11:30 – 23:30",
+      day_nostop: "★ Orario Continuato No Stop",
       chat_whatsapp: "Prenota su WhatsApp"
     },
 
@@ -205,6 +257,7 @@
       story_feat3_desc: "Cozy vaulted interior dining and an intimate lantern-lit outdoor patio.",
       story_feat4_title: "Genuine Roman Hospitality",
       story_feat4_desc: "Attentive, friendly English-speaking service where you feel right at home.",
+      story_quote_author: "Master Pasta Makers — Raviolo d'Oro",
       story_quote: "«A perfect raviolo is a little golden treasure holding the entire soul and generosity of Rome.»",
 
       // Specialties
@@ -307,6 +360,57 @@
       footer_rights: "© 2026 Raviolo d'Oro. All rights reserved.",
       footer_legal: "lemm srl Roma – Via della Guglia 62-66, 00186 Roma (RM) – REA 1549837 | VAT IT14841901003",
       footer_credit: "Built with modern web standards for lightning speed and conversion.",
+            // Specialty Tag Pills
+      pill_fresh_pasta: "Fresh Artisan Pasta",
+      pill_pecorino: "Pecorino Romano PDO",
+      pill_vegetarian: "Vegetarian",
+      pill_guanciale: "Crispy Cured Guanciale",
+      pill_yolks: "Farm Fresh Yolks",
+      pill_traditional_recipe: "Traditional Recipe",
+      pill_artichoke: "Roman Artichoke",
+      pill_golden_fried: "Crispy Golden Fried",
+      pill_gluten_free: "Gluten-Free",
+
+      // Menu Item Labels
+      lbl_chef_rec: "★ Chef Recommendation",
+      lbl_handmade_pasta: "Handcrafted Pasta",
+      lbl_chef_specialty: "Chef Specialty",
+      lbl_fresh_catch: "Fresh Catch of the Day",
+      lbl_most_popular: "Most Popular",
+      lbl_roman_classic: "Roman Classic",
+      lbl_100_gf: "100% Gluten-Free",
+      lbl_warm_starter: "Warm Starter",
+      lbl_trad_main: "Traditional Main Course",
+      lbl_homemade: "Homemade Daily",
+      lbl_wine_labels: "Over 60 Wine Labels",
+      lbl_wine_price_from: "from € 22.00",
+
+      // Booking Form specifics
+      lbl_guests_suffix: "guests at the table",
+      err_name: "Please enter guest name (at least 3 characters).",
+      err_phone: "Please enter a valid phone number for confirmation.",
+      err_email: "Please enter a valid email address.",
+      lbl_no_card: "No credit card required • Free cancellation at any time",
+
+      // Reviews Badges & Meta
+      badge_cert_excellence: "Certificate of Excellence",
+      badge_verified_review: "Verified Review",
+      badge_recent_visit: "Recent visit",
+      badge_dinner_friends: "Dinner with friends",
+      badge_couple_tourist: "Couple travelers",
+      city_istanbul: "Istanbul, Turkey",
+      city_warsaw: "Warsaw, Poland",
+      city_madrid: "Madrid, Spain",
+
+      // Footer Kitchen days
+      day_mon: "Monday: 11:30 AM – 11:30 PM",
+      day_tue: "Tuesday: 11:30 AM – 11:30 PM",
+      day_wed: "Wednesday: 11:30 AM – 11:30 PM",
+      day_thu: "Thursday: 11:30 AM – 11:30 PM",
+      day_fri: "Friday: 11:30 AM – 11:30 PM",
+      day_sat: "Saturday: 11:30 AM – 11:30 PM",
+      day_sun: "Sunday: 11:30 AM – 11:30 PM",
+      day_nostop: "★ All-Day Dining No Stop",
       chat_whatsapp: "WhatsApp Reservation"
     }
   };
