@@ -1610,16 +1610,18 @@ ul {
   border-radius: var(--radius-lg);
   overflow: hidden;
   border: 1px solid var(--border-gold);
-  min-height: 440px;
+  min-height: 450px;
   box-shadow: var(--shadow-lg);
   position: relative;
+  background: var(--bg-card);
 }
 
 .map-wrapper iframe {
   width: 100%;
   height: 100%;
+  min-height: 450px;
   border: 0;
-  filter: invert(90%) hue-rotate(180deg) contrast(90%) saturate(140%);
+  display: block;
 }
 
 /* --- Native HTML <dialog> Modals (modern-web-guidance) --- */
