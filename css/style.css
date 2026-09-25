@@ -317,7 +317,36 @@ ul {
 .nav-actions {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 14px;
+}
+
+/* Header Direct Call Button */
+.nav-phone-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--color-gold);
+  border: 1px solid var(--border-gold);
+  background: rgba(212, 175, 55, 0.08);
+  padding: 8px 16px;
+  border-radius: var(--radius-pill);
+  font-weight: 700;
+  font-size: 0.88rem;
+  transition: all var(--transition-smooth);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.nav-phone-btn:hover {
+  background: rgba(212, 175, 55, 0.22);
+  color: #fff;
+  border-color: var(--color-gold-light);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(212, 175, 55, 0.3);
+}
+
+.nav-phone-btn svg {
+  stroke: var(--color-gold);
 }
 
 /* Language Switcher Button Group */
@@ -988,6 +1017,87 @@ ul {
   position: relative;
 }
 
+/* Booking Direct Phone Callout Banner */
+.booking-phone-strip {
+  max-width: 760px;
+  margin: 32px auto 0;
+  padding: 16px 24px;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(20, 16, 17, 0.95) 100%);
+  border: 1px solid var(--border-gold);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(212, 175, 55, 0.2);
+}
+
+.booking-phone-strip-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.phone-strip-icon {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: rgba(212, 175, 55, 0.15);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-gold);
+  flex-shrink: 0;
+}
+
+.phone-strip-icon svg {
+  stroke: var(--color-gold);
+}
+
+.phone-strip-text {
+  flex: 1;
+  text-align: left;
+}
+
+.phone-strip-title {
+  display: block;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 2px;
+}
+
+.phone-strip-desc {
+  display: block;
+  font-size: 0.86rem;
+  color: var(--text-secondary);
+}
+
+.phone-strip-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #e5be49 0%, #d4af37 60%, #b8860b 100%);
+  color: #120e06;
+  font-weight: 800;
+  font-size: 0.98rem;
+  padding: 11px 22px;
+  border-radius: var(--radius-pill);
+  box-shadow: 0 4px 16px rgba(212, 175, 55, 0.35);
+  transition: all var(--transition-smooth);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.phone-strip-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(212, 175, 55, 0.55);
+  background: linear-gradient(135deg, #fce085 0%, #e0bd49 60%, #c59317 100%);
+  color: #120e06;
+}
+
+.phone-strip-cta svg {
+  stroke: #120e06;
+}
+
 .booking-wrapper {
   background: var(--bg-card);
   border: 1px solid var(--border-gold);
@@ -1628,6 +1738,34 @@ dialog::backdrop {
   align-items: flex-end;
 }
 
+.floating-call {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #e5be49 0%, #d4af37 60%, #b8860b 100%);
+  color: #120e06;
+  padding: 12px 20px;
+  border-radius: var(--radius-pill);
+  font-weight: 700;
+  font-size: 0.9rem;
+  box-shadow: 0 8px 24px rgba(212, 175, 55, 0.45);
+  transition: all var(--transition-smooth);
+  text-decoration: none;
+}
+
+.floating-call:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 12px 30px rgba(212, 175, 55, 0.65);
+  background: linear-gradient(135deg, #fce085 0%, #e0bd49 60%, #c59317 100%);
+  color: #120e06;
+}
+
+.floating-call svg {
+  width: 20px;
+  height: 20px;
+  stroke: #120e06;
+}
+
 .floating-whatsapp {
   display: flex;
   align-items: center;
@@ -1860,14 +1998,52 @@ dialog::backdrop {
     text-align: center;
   }
 
-  .floating-action-bar {
-    bottom: 16px;
-    right: 16px;
-    left: 16px;
-    align-items: stretch;
+  .nav-phone-btn {
+    display: none;
   }
 
+  .mobile-only-link {
+    display: flex !important;
+    align-items: center;
+    color: var(--color-gold) !important;
+    font-weight: 700;
+  }
+
+  .booking-phone-strip {
+    margin-top: 24px;
+    padding: 16px;
+  }
+
+  .booking-phone-strip-inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+  }
+
+  .phone-strip-text {
+    text-align: center;
+  }
+
+  .phone-strip-cta {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .floating-action-bar {
+    bottom: 14px;
+    right: 12px;
+    left: 12px;
+    align-items: stretch;
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .floating-call,
   .floating-whatsapp {
     justify-content: center;
+    flex: 1;
+    padding: 11px 8px;
+    font-size: 0.8rem;
+    gap: 6px;
   }
 }
